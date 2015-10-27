@@ -59,14 +59,14 @@ class HungerSimulator extends PluginBase implements Listener{
     );
     
     public $action = array(
-        "walk" => 0.01, 
-        "racing" => 0.1, //TODO next version of MCPE
+        "walk" => 0.07, 
+        "racing" => 0.01, //TODO next version of MCPE
         "swim" => 0.015,
-        "jump" => 0.2,
-        "jump-racing" => 0.8, //TODO next version of MCPE
+        "jump" => 0.02,
+        "jump-racing" => 0.08, //TODO next version of MCPE
         "break-block" => 0.025,
-        "attack" => 0.3, //TODO
-        "damage" => 0.3 //TODO
+        "attack" => 0.03, //TODO
+        "damage" => 0.03 //TODO
     );
        
     public function onEnable(){
